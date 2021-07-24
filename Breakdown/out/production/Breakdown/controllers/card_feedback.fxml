@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.control.Label?>
+<VBox xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.CardFeedbackController">
+    <Label fx:id="feedbackMechanicId" />
+    <Label fx:id="feedbackTitle" />
+    <Label fx:id="feedbackDescription" />
+    <Label fx:id="feedbackRating" />
+</VBox>

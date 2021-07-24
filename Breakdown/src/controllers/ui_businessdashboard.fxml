@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="380.0" prefWidth="420.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ControllerBusinessDashboard">
+   <children>
+      <Button fx:id="controlMechanicButton" layoutX="135.0" layoutY="108.0" mnemonicParsing="false" onAction="#setControlMechanicButton" prefHeight="35.0" prefWidth="150.0" style="-fx-background-color: #6747ce; -fx-background-radius: 10;" text="Control Mechanic" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="15.0" />
+         </font></Button>
+      <Button fx:id="viewOwnerFeedbackButton" layoutX="135.0" layoutY="225.0" mnemonicParsing="false" onAction="#setviewOwnerFeedbackButtonOnAction" prefHeight="35.0" prefWidth="150.0" style="-fx-background-color: #6747ce; -fx-background-radius: 10;" text="View Feedback" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="15.0" />
+         </font></Button>
+      <Button fx:id="viewMechanicButton" layoutX="135.0" layoutY="167.0" mnemonicParsing="false" onAction="#setviewMechanicButtonOnAction" prefHeight="35.0" prefWidth="150.0" style="-fx-background-color: #6747ce; -fx-background-radius: 10;" text="   View Mechanic " textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="15.0" />
+         </font></Button>
+      <Button fx:id="ownerLogoutButton" layoutX="135.0" layoutY="300.0" mnemonicParsing="false" onAction="#setownerLogoutButtonOnAction" prefHeight="32.0" prefWidth="150.0" style="-fx-background-color: #ff2626; -fx-background-radius: 10;" text="Logout" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="15.0" />
+         </font></Button>
+      <AnchorPane prefHeight="64.0" prefWidth="420.0" style="-fx-background-color: #6747ce;">
+         <children>
+            <Label alignment="CENTER" layoutY="-8.0" prefHeight="75.0" prefWidth="420.0" text="Business Owner Dashboard" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Bold" size="28.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

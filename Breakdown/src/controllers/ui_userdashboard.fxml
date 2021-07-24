@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="380.0" prefWidth="390.0" style="-fx-background-color: ffffff;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ControllerUserDashboard">
+   <children>
+      <Label alignment="CENTER" layoutX="-1.0" prefHeight="70.0" prefWidth="422.0" style="-fx-background-color: #6747ce;" text="User Dashboard" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="30.0" />
+         </font></Label>
+      <Button fx:id="addVehicleButton" layoutX="37.0" layoutY="103.0" mnemonicParsing="false" onAction="#setAddVehicleButtonOnAction" prefHeight="50.0" prefWidth="110.0" style="-fx-background-color: #6747ce; -fx-border-radius: 5; -fx-background-radius: 5;" text="Add vehicle" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font></Button>
+      <Button fx:id="viewVehicleButton" layoutX="269.0" layoutY="103.0" mnemonicParsing="false" onAction="#setviewVehicleButtonOnAction" prefHeight="50.0" prefWidth="115.0" style="-fx-background-radius: 5; -fx-background-color: #6747ce; -fx-border-radius: 5;" text="View vehicles" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font></Button>
+      <Button fx:id="searchMechanicButton" layoutX="130.0" layoutY="176.0" mnemonicParsing="false" onAction="#setsearchMechanicButtonOnAction" prefHeight="50.0" prefWidth="160.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #6747ce; -fx-border-radius: 5; -fx-background-insets: 000; -fx-background-radius: 5;" text="Search Mechanic">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font></Button>
+      <Button fx:id="feedbackHistoryButton" layoutX="130.0" layoutY="239.0" mnemonicParsing="false" onAction="#setfeedbackHistoryButtonOnAction" prefHeight="50.0" prefWidth="160.0" style="-fx-background-color: #6747ce; -fx-border-radius: 5; -fx-background-radius: 5;" text="Feedback History" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font></Button>
+      <Button fx:id="userLogoutButton" layoutX="155.0" layoutY="307.0" mnemonicParsing="false" onAction="#setuserLogoutButtonOnAction" prefHeight="50.0" prefWidth="110.0" style="-fx-background-color: ff2626; -fx-border-radius: 5; -fx-background-radius: 5;" text="Logout" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
